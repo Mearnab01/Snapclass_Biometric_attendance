@@ -19,7 +19,7 @@ def header_home():
                 <p style='color:rgba(255,255,255,0.45); margin:0.35rem 0 0 0;
                            font-size:0.875rem; letter-spacing:0.08em;
                            text-transform:uppercase; font-weight:500;'>
-                    Smart Attendance Platform
+                    Making Attendance faster using AI
                 </p>
             </div>
         </div>
@@ -40,7 +40,8 @@ def header_dashboard():
                 <img src='{logo_url}' style='height:34px; object-fit:contain;'/>
             </div>
             <div>
-                <h2 style='color:#1a1f3c; margin:0; letter-spacing:-0.02em;'>SNAP CLASS</h2>
+                <h2 style='color:#ffffff; margin:0; letter-spacing:-0.03em;
+                            text-shadow:0 2px 20px rgba(67,97,238,0.4);'>SNAP CLASS</h2>
                 <p style='color:#8892b0; margin:0; font-size:0.78rem;
                            letter-spacing:0.06em; text-transform:uppercase;
                            font-weight:500;'>Dashboard</p>
