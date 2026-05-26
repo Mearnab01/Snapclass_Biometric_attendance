@@ -1,7 +1,7 @@
 import streamlit as st
 from src.database.db import enroll_student_to_subject
 from src.database.config import supabase
-from ui.base_layout import apply_dialog_styles
+from src.ui.base_layout import apply_dialog_styles
 
 def get_available_subjects(student_id):
     all_subjects = supabase.table('subjects').select('subject_id, name, subject_code').execute()

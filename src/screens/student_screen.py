@@ -3,8 +3,8 @@ from PIL import Image
 import numpy as np
 
 from ui.base_layout import style_background_dashboard, style_base_layout
-from components.header import header_dashboard
-from components.footer import footer_dashboard
+from src.components.header import header_dashboard
+from src.components.footer import footer_dashboard
 from src.components.student_compliance import render_student_compliance
 from src.components.subject_card import subject_card
 from src.components.dialog_enroll import enroll_dialog

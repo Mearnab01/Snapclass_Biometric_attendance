@@ -1,5 +1,5 @@
 # ── Editable install (allows `from src.xxx import ...` anywhere) ──
--e .
+# -e .
 
 # ── App ──────────────────────────────────────────────────────────
 streamlit
