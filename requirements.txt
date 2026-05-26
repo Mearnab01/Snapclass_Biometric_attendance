@@ -40,4 +40,4 @@ jupyter
 ipykernel
 matplotlib
 seaborn
-setuptools
+setuptools==81.0.0
